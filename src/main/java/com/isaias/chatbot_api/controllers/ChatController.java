@@ -25,7 +25,7 @@ public class ChatController {
         if (message.toLowerCase().contains("hola") ||
             message.toLowerCase().contains("buenos") ||
             message.toLowerCase().contains("buenas")) {
-            return "¡Hola! ¿En qué puedo ayudarte?";
+            return "¡Hola! Soy el asistente virtual de la empresa 2Plo Technologies ¿En qué puedo ayudarte?";
         } else if (message.toLowerCase().contains("cómo estás")) {
             return "Estoy bien, gracias por preguntar.";
         } else if (message.toLowerCase().contains("información")) {
