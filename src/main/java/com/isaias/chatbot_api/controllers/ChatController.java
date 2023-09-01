@@ -20,8 +20,6 @@ public class ChatController {
     }
 
     private String processMessage(String message) {
-        // Implementa la lógica para procesar el mensaje y generar una respuesta
-        // Puedes usar condiciones, bases de datos, algoritmos de procesamiento de lenguaje natural, etc.
         if (message.toLowerCase().contains("hola") ||
             message.toLowerCase().contains("buenos") ||
             message.toLowerCase().contains("buenas")) {
