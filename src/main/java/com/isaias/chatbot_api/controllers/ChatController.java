@@ -87,7 +87,4 @@ public class ChatController {
             this.response = response;
         }
     }
-
-    // Agrega más métodos manejadores aquí
-
 }
